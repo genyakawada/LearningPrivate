@@ -1,0 +1,17 @@
+
+https://prog-8.com/docs/git-env
+
+■フォルダをGitで管理できるように、以下のコマンドを実行します。
+git init
+
+■プッシュ先のリモートリポジトリを指定することができます。
+git remote add origin <URL>
+git remote add origin https://github.com/genyakawada/LearningPrivate.git
+
+
+■リモートリポジトリが登録できたか確認
+git remote -v
+
+kawadagenya-no-MacBook-Pro:gitdir_private kawadagenya$ git remote -v
+origin	https://github.com/genyakawada/LearningPrivate.git (fetch)
+origin	https://github.com/genyakawada/LearningPrivate.git (push)
